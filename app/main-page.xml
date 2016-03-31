@@ -1,0 +1,11 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" loaded="load">
+<StackLayout>
+    <SegmentedBar id="segmentedBarId"   selectedIndex="{{segmentedBarIndex}}"> 
+        <SegmentedBar.items> 
+            <SegmentedBarItem title="No" /> 
+            <SegmentedBarItem title="Unprotected" /> 
+            <SegmentedBarItem title="Protected" /> 
+        </SegmentedBar.items> 
+    </SegmentedBar>
+ </StackLayout>
+</Page>
